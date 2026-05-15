@@ -12,20 +12,6 @@ When using the **offline attack**, **if** the AP is vulnerable, it may take only
  - libpcap-dev  
  - build-essential
 
-## Optional build-time dependencies
-
-in case your kernel doesn't support wext extensions
-(which is unfortunately the case on most modern distros),
-the included code to switch wireless channels won't work.
-you can still either switch the channel manually before
-running reaver/wash without using the channel options,
-or build against one of the 2 libnl implementations below.
-
-- libnl-3-dev libnl-genl-3-dev
-- libnl-tiny
-
-then use either ./configure --enable-libnl3 or --enable-libnl-tiny.
-
 ## Runtime-time dependencies  
 
  - pixiewps (optional, required for pixiedust attack)  
