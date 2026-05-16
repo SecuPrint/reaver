@@ -21,7 +21,6 @@ When using the **offline attack**, **if** the AP is vulnerable, it may take only
 ```
 apt -y install build-essential libpcap-dev aircrack-ng pixiewps
 ```
-_The example uses [Kali Linux](https://www.kali.org/) as the Operating System (OS) as `pixiewps` is included._
 
 You **must** already have Wiire's Pixiewps installed to perform a pixie dust attack, latest version can be found in its [official github repository](https://github.com/wiire/pixiewps).
 
