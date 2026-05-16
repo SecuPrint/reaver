@@ -9,7 +9,6 @@ When using the **offline attack**, **if** the AP is vulnerable, it may take only
 
 ## Build-time dependencies
 
- - libpcap-dev  
  - build-essential
 
 ## Runtime-time dependencies  
@@ -19,7 +18,7 @@ When using the **offline attack**, **if** the AP is vulnerable, it may take only
 
 ## Example 
 ```
-apt -y install build-essential libpcap-dev aircrack-ng pixiewps
+apt -y install build-essential aircrack-ng pixiewps
 ```
 
 You **must** already have Wiire's Pixiewps installed to perform a pixie dust attack, latest version can be found in its [official github repository](https://github.com/wiire/pixiewps).
