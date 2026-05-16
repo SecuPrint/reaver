@@ -342,7 +342,8 @@ static int parse_wps_tags(const u_char *tags, size_t len,
 				}
 				else
 				{
-					strncpy(ptr, src, LIBWPS_MAX_STR_LEN);
+					strncpy(ptr, src, LIBWPS_MAX_STR_LEN - 1);
+					ptr[LIBWPS_MAX_STR_LEN - 1] = '\0';
 					free(src);
 				}
 
