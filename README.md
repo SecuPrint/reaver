@@ -29,20 +29,9 @@ You **must** already have Wiire's Pixiewps installed to perform a pixie dust att
 
 # Setup
 
-**Download**
-
-`git clone https://github.com/SecuPrint/reaver`
-
-`cd reaver`  
-`cd src`  
-
-**Compile**
-
-`./configure`  
-`make`  
-
 **Install**
 
-`sudo make install`  
+`chmod +x ./AUTO_INSTALL.sh`
+`./AUTO_INSTALL.sh`
 
 - [Credits](CREDITS.md)
