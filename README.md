@@ -32,7 +32,6 @@ You **must** already have Wiire's Pixiewps installed to perform a pixie dust att
 **Download**
 
 `git clone https://github.com/SecuPrint/reaver`
-**Locate the shell**
 
 `cd reaver`  
 `cd src`  
