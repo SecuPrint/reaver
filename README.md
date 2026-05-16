@@ -31,7 +31,6 @@ You **must** already have Wiire's Pixiewps installed to perform a pixie dust att
 
 **Install**
 
-`chmod +x ./AUTO_INSTALL.sh`
-`./AUTO_INSTALL.sh`
+`chmod +x AUTO_INSTALL.sh && ./AUTO_INSTALL.sh`
 
 - [Credits](CREDITS.md)
